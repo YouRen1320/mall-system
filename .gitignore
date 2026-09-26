@@ -1,0 +1,12 @@
+# 本地凭据及覆盖配置不进入公开仓库；仅提交空值示例。
+.env
+.env.*
+!.env.example
+**/application-local.*
+**/application-secrets.*
+**/target/
+**/node_modules/
+**/dist/
+**/.idea/
+.DS_Store
+*.log
